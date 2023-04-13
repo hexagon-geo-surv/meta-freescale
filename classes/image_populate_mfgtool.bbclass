@@ -58,6 +58,7 @@ do_populate_mfgtool[dirs] ?= "${DEPLOY_DIR_IMAGE} ${WORKDIR}"
 do_populate_mfgtool[nostamp] = "1"
 do_populate_mfgtool[recrdeptask] += "do_deploy"
 do_populate_mfgtool[depends] += "uuu-bin:do_populate_sysroot"
+do_populate_mfgtool[vardepsexclude] += "_SCRIPT_DEPLOY_FILES"
 
 python () {
     depends = []
