@@ -29,7 +29,7 @@ This policy ensures that our users can rely on consistent support and updates, b
 
 ## Release Cycle
 
-- **Yocto Project LTS Releases:** Our LTS branches follow the Yocto Project LTS release schedule, which involves a four-year maintenance period. A new LTS version is typically released every two years.
+- **Yocto Project LTS Releases:** Our LTS branches follow the [Yocto Project LTS release schedule](https://wiki.yoctoproject.org/wiki/Releases), which involves a four-year maintenance period. A new LTS version is typically released every two years.
 - **Stable Releases:** We aim to provide stable releases every six months, aligning with the pace of Yocto Project's stable releases.
 
 ## Contributing
